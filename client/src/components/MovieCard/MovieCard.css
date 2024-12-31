@@ -1,0 +1,23 @@
+.movie-card {
+    padding: 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 20px;
+}
+
+.movie-card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 2px #3b3847;
+    transition: all 200ms;
+}
+
+.movie-title {
+    text-align: center;
+    font-size: larger;
+}
